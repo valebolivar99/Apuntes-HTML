@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de pacientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Medico Backend</h1>
+    </header>
+    <main>
+        <form id="registro-pacientes-form">
+            <h2>Registro de pacientes</h2>
+            <label for="">Nombre:</label> 
+            <input type="text" placeholder="Ingrese su nombre" required> <br>
+            <label for="">Apellidos:</label> 
+            <input type="text" placeholder="Ingrese sus apellidos" required> <br>
+            <label for="">Número de Cédula:</label> 
+            <input type="number" placeholder="Ingrese su nombre" required> <br>
+            <label for="">Edad:</label> 
+            <input type= "number" placeholder="Ingrese su edad" required> <br>
+            <label for="">Telefono:</label> 
+            <input type="number" placeholder="Ingrese su telefono" required> <br>
+            <label for="">Especialidad requerida:</label> 
+            <select id="especialidad" name="especialidad">
+                <option value="">------------------------  Seleccione la especialidad  ---------------------</option>
+                <option value="MG">Medicina General</option>
+                <option value="CQ">Cardiologia</option>
+                <option value="MI">Medicina interna</option>
+                <option value="DE">Dermatología</option>
+                <option value="RF">Rehabilitación física</option>
+                <option value="PS">Psicología</option>
+                <option value="OD">Odontología</option>
+                <option value="RA">Radiología</option>
+            </select> <br>
+            <input type="submit" value="Enviar">
+            
+        </form>
+        <div class="boton-container">
+            <a href="index.html"><input type="button" value="Volver"></a>
+        </div>
+    </main>
+</body>
+</html>
